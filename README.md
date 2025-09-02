@@ -65,7 +65,32 @@ The project follows a modular structure to keep the workflow organised(google dr
 ###### │
 ###### ├── requirements.txt # Python dependencies
 ###### └──  README.md # Project documentation
-#
+
+## Project Structure
+
+insider-threat-uba/
+│
+├── data/ # Raw input data (CERT Insider Threat v6.2)
+│ ├── logon.csv
+│ ├── file.csv
+│ ├── device.csv
+│ └── email.csv
+│
+├── notebooks/ # Jupyter notebooks for step-by-step workflow
+│ ├── 1_Data_Preparation.ipynb
+│ ├── 2_Feature_Engineering.ipynb
+│ └── 3_Anomaly_Detection.ipynb
+│
+├── outputs/ # Processed datasets & results
+│ ├── merged_sessions.csv
+│ └── uba_features.csv
+│
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+
+yaml
+
+
 
 ## 5. How to Run the Project
 
