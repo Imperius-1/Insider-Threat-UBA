@@ -1,0 +1,17 @@
+# Core libraries for data manipulation and scientific computing
+pandas
+numpy
+
+# Machine learning libraries
+scikit-learn
+pyod
+
+# Data visualisation libraries
+matplotlib
+seaborn
+
+# Library for creating Excel files
+openpyxl
+
+# Jupyter Notebook is used for the development environment
+jupyter
