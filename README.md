@@ -45,21 +45,22 @@ This project implements a User Behavioural Analytics (UBA) framework to detect i
 
 ## 4. Project Structure
 
-The project follows a modular structure to keep the workflow organised:
+The project follows a modular structure to keep the workflow organised(google drive project structure):
 insider-threat-uba/
-├── data/
-│   ├── logon.csv
-│   ├── file.csv
-│   └── ...
-├── notebooks/
-│   └── 1_Data_Preparation.ipynb
-│   └── 2_Feature_Engineering.ipynb
-│   └── 3_Anomaly_Detection.ipynb
-├── outputs/
-│   └── merged_sessions.csv
-│   └── uba_features.csv
-├── requirements.txt
-├── README.md
+    data/
+        logon.csv
+        file.csv
+        device.csv
+        email.csv
+     notebooks/
+        1_Data_Preparation.ipynb
+        2_Feature_Engineering.ipynb
+        3_Anomaly_Detection.ipynb
+     outputs/
+        merged_sessions.csv
+        uba_features.csv
+     requirements.txt
+     README.md
 
 ## 5. How to Run the Project
 
