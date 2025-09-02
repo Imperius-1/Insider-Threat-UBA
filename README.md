@@ -73,9 +73,10 @@ The project is designed to be run in a step-by-step manner using the Jupyter Not
 5.  **Phase 3: Anomaly Detection**: Run the `3_Anomaly_Detection Modelling.ipynb` notebook to train the machine learning models, evaluate their performance, and generate the final visualisations for your report.
 
 ## 6.Notes to keep in mind
-**Data Directory** have 2 log files and links to other log files 
-**Output Directory** has the Splunk Reports I downloaded as a part of this project and images 
-Read the README files if present in a directory, so it will give u an idea what it is about
+1. **Data Directory** have 2 log files and links to other log files 
+2. **Output Directory** has the Splunk Reports I downloaded as a part of this project and images 
+3. Read the README files if present in a directory, so it will give u an idea what it is about
+ 
 ## 7. Acknowledgements
 
 This project was made possible by the publicly available **CERT Insider Threat Dataset** and the use of open-source libraries such as `scikit-learn` and `pandas`.
