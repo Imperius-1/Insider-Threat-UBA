@@ -45,27 +45,36 @@ This project implements a User Behavioural Analytics (UBA) framework to detect i
 
 ## 4. Project Structure
 
-The project follows a modular structure to keep the workflow organised(google drive project structure):
+The project follows a modular structure to keep the workflow organised([Google Drive](https://drive.google.com/drive/folders/1EcofbZuHt-_xCVleVH1owX7QcWOStwow?usp=drive_link) and github):
 
-insider-threat-uba/ 
+    insider-threat-uba/ 
     
-    data/  
-        data/logon.csv  
-        data/file.csv  
-        data/device.csv  
-        data/email.csv  
+        data/  
+            logon.csv  
+            file.csv  
+            device.csv  
+            email.csv  
+            psychometric.csv
 
-    notebooks/  
-        notebooks/1_Data_Preparation.ipynb  
-        notebooks/2_Feature_Engineering.ipynb  
-        notebooks/3_Anomaly_Detection.ipynb  
+        notebooks/  
+            1_Data_Preparation.ipynb  
+            2_Feature_Engineering.ipynb  
+            3_Anomaly_Detection.ipynb  
+            Domain check
+            Feature engineering sample outputs
+            Splunk inputs
+            Splunk Codes
 
     outputs/  
-        outputs/merged_sessions.csv  
-        outputs/uba_features.csv  
+            merged_sessions.csv  
+            uba_features.csv
+            Anomaly Risk Scores from Isolation Forest
+            Risk Score Scatter Plot
+            UBA_architecture_layered_vector
+            Splunk Reports/
 
-    requirements.txt  
-    README.md  
+    requirements.txt  # Python dependencies
+    README.md  # Project documentation
 
 
 ## 5. How to Run the Project
